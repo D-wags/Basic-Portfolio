@@ -11,6 +11,7 @@
   		background-color: #fff;
   		text-align: center;
   		color: #fff;
+  		border-color: #cccccc;
 		border-bottom-width: 4px;
 		border-bottom: 4px solid grey;
 		margin-bottom: 0px;
@@ -29,7 +30,7 @@
 	hr {
     border: none;
     height: 3px;
-    color: grey; 
+    color: #777777;
     background-color: grey;
 }
 
@@ -45,6 +46,7 @@
 		margin-bottom: 15px; 
 		color: teal; 
 		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: #777777;
 	}
 
 	h2 {
@@ -53,6 +55,7 @@
 		margin-top: 10px; 
 		margin-bottom: 10px; 
 		font-family: 'Georgia', Times, Times New Roman, serif;
+		
 	}
 
 	h3 {
@@ -64,14 +67,14 @@
 	}
 
 	h4 {
-		color: grey;
+		color: #777777;
 		padding-top: 20px;
 		font-size: 1.1rem;
 		padding-left: 790px;
 	}
 
 	a {
-		color: grey;
+		color: #777777;
 		text-decoration: none;
 
 	}
@@ -94,8 +97,12 @@
 
 	label {
 		color: grey;
-		
+		padding: 30px, 0px;
+		margin: 30px, 0px;
 	}
+
+
+
 
    #aboutme {
 		float: left;
@@ -115,8 +122,16 @@
 
 	.ins {
 		width: 550px;
+		height: 15px;
 		float: left;
 		line-height: 1.4em;
+	}
+
+	.formp {
+		color: grey;
+		padding: 30px, 0px;
+		margin: 30px, 0px;
+		line-height: 2.0em;
 	}
 
 	#logo {
@@ -125,7 +140,7 @@
 	}
 
 	#mssge {
-		height: 120px;
+		height: 150px;
 		width: 550px;
 		line-height: 1.2em;
 	}
@@ -135,6 +150,9 @@
 		float: left;
 		margin-left: 50px;
 		line-height: 100%;
+		padding: 15px;
+		margin-bottom: 0px;
+		margin-top: 0px;
 
 	}
 
@@ -179,38 +197,39 @@
 		width: 590px;
 		padding-left: 30px;
 		padding-right: 30px;
-		height: 460px;
+		height: 480px;
 		margin-left: 130px;
 		margin-top: 40px;
-		border-bottom: 1px solid grey;
-		border-top: 1px solid grey;
-		border-right: 1px solid grey;
-		border-left: 1px solid grey;
+		border-bottom: 1px solid #dddddd;
+		border-top: 1px solid #dddddd;
+		border-right: 1px solid #dddddd;
+		border-left: 1px solid #dddddd;
 		
 	}
 
 
 	#sidebox {
     	float: right;
-    	background-color: white;
+    	background-color: #ffffff;
     	width: 250px;
     	padding-right: 10px;
     	padding-left: 10px;
     	height: 205px;
     	margin-right: 80px;
     	margin-top: 40px;
-    	border-bottom: 1px solid grey;
-		border-top: 1px solid grey;
-		border-right: 1px solid grey;
-		border-left: 1px solid grey;
+    	border-bottom: 1px solid #dddddd;
+		border-top: 1px solid #dddddd;
+		border-right: 1px solid #dddddd;
+		border-left: 1px solid #dddddd;
     }
 
 	#submit {
 		background-color: teal;
 		color: white;
 		border: none;
-		width: 60px;
-		height: 30px;
+		width: 80px;
+		height: 35px;
+		font-size: 1.0em;
 	}
 
 	footer {
@@ -218,11 +237,12 @@
   		right: 0;
   		bottom: 0;
   		left: 0;
+  		font-size: 0.7em;
   		padding: 1rem;
   		background-color: #666666;
   		text-align: center;
   		border-style: solid;
-  		color: ##777777;
+  		color: #777777;
   		border-top: 20px solid #4aaaa5;
   		border-color: teal;
 		margin-top: 20px;
